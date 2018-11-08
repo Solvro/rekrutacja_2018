@@ -1,0 +1,146 @@
+openapi: 3.0.0
+info:
+  title: Solvro checklist
+  version: 1.0.0
+paths:
+  /lists:
+    get:
+      summary: Returns list of checklists' names.
+      responses:
+        '200':
+          description: JSON array of checklists' names.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+              example: ["Zakupy", "Prezenty", "Do zrobienia do środy"]
+    post:
+      summary: Inserts new checklist with a unique name.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+            example: "Zakupy"
+      responses:
+        '201':
+          description: New checklist inserted.
+        '409':
+          description: Checklist of given name already exists.
+  /lists/{name}:
+    delete:
+      summary: Remove checklist of given name.
+      parameters:
+        - name: name
+          in: path
+          description: Name of the checklist
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: OK.
+        '404':
+          description: Checklist of given ID does not exist.
+  /lists/{name}/items:
+    get:
+      parameters:
+        - name: name
+          in: path
+          description: Name of the checklist
+          required: true
+          schema:
+            type: string
+      summary: Returns list of checklist items.
+      responses:
+        '200':
+          description: JSON array of checklist's items.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    checked:
+                      type: boolean
+              example:
+                - name: mleko
+                  checked: true
+                - name: jajka
+                  checked: false
+                - name: jabłka
+                  checked: false
+    post:
+      parameters:
+        - name: name
+          in: path
+          description: Name of the checklist
+          required: true
+          schema:
+            type: string
+      summary: Inserts new unchecked item to checklist and gives it unique ID.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: string
+            example: ser
+      responses:
+        '201':
+          description: Returns ID of newly added item.
+          content:
+            application/json:
+              schema:
+                type: integer
+  /lists/{name}/items/{id}:
+    patch:
+      summary: Check or uncheck checklist's item.
+      parameters:
+        - name: name
+          in: path
+          description: Name of the checklist
+          required: true
+          schema:
+            type: string
+        - name: id
+          in: path
+          description: ID of the checklist's item
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: boolean
+            example: true
+      responses:
+        '202':
+          description: OK.
+        '404':
+          description: Item of given ID does not exist.
+    delete:
+      summary: Remove checklist's item.
+      parameters:
+        - name: name
+          in: path
+          description: Name of the checklist
+          required: true
+          schema:
+            type: string
+        - name: id
+          in: path
+          description: ID of the checklist's item
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK.
+        '404':
+          description: Item of given ID does not exist in checklist.
