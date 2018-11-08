@@ -77,7 +77,7 @@ Zaimplementuj prosty serwer obsługujący zapytania zgodnie z zasadami architekt
 
 :hammer_and_wrench: **Preferowane technologie**
 
-- Najlepiej skożystać z relacyjnej bazy danych (np. `MariaDB`, `PostgreSQL`) i frameworka do wysokopoziomowego języka (python: `django`, `flask`; js: `express`, `hapi`; java: `spring`)
+- Najlepiej skorzystać z relacyjnej bazy danych (np. `MariaDB`, `PostgreSQL`) i frameworka do wysokopoziomowego języka (python: `django`, `flask`; js: `express`, `hapi`; java: `spring`)
 - PHP, Java, Assembler i wszelkie inne technologie oczywiście dozwolone.
 
 :heavy_check_mark: **Kryteria oceniania**
