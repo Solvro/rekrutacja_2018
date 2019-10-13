@@ -4,7 +4,7 @@
 
 # Rekrutacja
 
-W ramach rekrutacji stworzyliśmy pięć zadań z pięciu różnych kategorii, żeby każdy znalazł coś dla siebie. Wybierz **jedno** zadanie, a rozwiązanie udostępnij w publicznym repozytorium kodu (np. GitHub). Zadania powinny być rozwiązywane indywidualnie. Masz na to 2 tygodnie. Link do repozutorium należy wysłać nam mailem lub przez wiadomość prywantną na Facebooku.
+W ramach rekrutacji stworzyliśmy cztery zadania z czterech różnych kategorii, żeby każdy znalazł coś dla siebie. Wybierz **jedno** zadanie, a rozwiązanie udostępnij w publicznym repozytorium kodu (np. GitHub). Zadania powinny być rozwiązywane indywidualnie. Masz na to 2 tygodnie. Link do repozutorium należy wysłać nam mailem lub przez wiadomość prywantną na Facebooku.
 
 **Powodzenia!**
 
@@ -14,7 +14,6 @@ W ramach rekrutacji stworzyliśmy pięć zadań z pięciu różnych kategorii, �
   - [Design](#Design)
   - [Mobile](#Mobile)
   - [Backend](#Backend)
-  - [DevOps](#DevOps)
 
 <a name="Frontend"></a>
 
@@ -72,9 +71,3 @@ Nice to have:
 
 
 Oceniana będzie jakość kodu, jego dokumentacja, rozwiązanie postawionego problemu, użycie odpowiednich technologii, odporność na podstawowe ataki oraz błędne dane (które nie są zawarte w specyfikacji) i praca z systemem kontroli wersji.
-
-<a name="DevOps"></a>
-
-## DevOps
-
-TBA.
