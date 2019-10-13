@@ -32,7 +32,27 @@ Dozwolone jest użycie frameworków CSS jak i bibliotek dostępnych w repozytori
 
 ## Design
 
-TBA.
+Zaprojektuj makietę aplikacji webowej, pozwalającej na **zapisywanie się w pokojach na rajdy PWr**!
+
+Twoim zadaniem jest przygotowanie jedynie części serwisu odpowiedzialnej za 
+**rezerwację wybranego lokum** i **przeglądanie listy dostępnych pokoi**, wraz z informacją o ich zapełnieniu. Dla ułatwienia, pomijamy tutaj najmniej emocjonujące ekrany (typu logowanie).
+
+Zadbaj, aby makieta uwzględniała podane funkcjonalności:
+- Każdy pokój na liście posiada swoją nazwę lub numer
+- Pokoje mieszczą różną liczbę osób
+- Wszystkie, bez względu na dostępność, wyświetlają się na liście
+- Aktualne zapełnienie jest publicznie dostępne
+- Użytkownik ma prawo zmienić wybrane lokum
+
+Dodatkowo, aplikacja powinna korzystać z podanej **palety barw** i być w pełni **responsywna**.
+
+Przykładowe narzędzia
+- aplikacje do tworzenia makiet (np. `AdobeXD`, `Sketch`)
+- do grafiki wektorowej (np. `Inkscape`, `Adobe Illustrator`)
+- do grafiki rastrowej (np. `Gimp`, `Photoshop`)
+
+Oceniany będzie wygląd aplikacji i przyjazność interfejsu użytkownika.
+
 
 <a name="Mobile"></a>
 
