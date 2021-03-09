@@ -2,11 +2,10 @@
 <img src="./assets/logo_solvro.png" height="200">
 </div>
 
-## TERMIN SKŁADANIA PRAC: 25.03.2021
-
 # Rekrutacja
 
-W ramach rekrutacji stworzyliśmy pięć zadań z pięciu różnych kategorii, żeby każdy znalazł coś dla siebie. Wybierz **jedno** zadanie, a rozwiązanie udostępnij w publicznym repozytorium kodu (np. GitHub). Zadania powinny być rozwiązywane indywidualnie. [Link do repozytorium należy wysłać przez formularz zgłoszeniowy](https://docs.google.com/forms/d/e/1FAIpQLSdCl0sjuxdFbsFIp-jsfvIMJ2HUvD36R-D-jgogOl1ymq8HkQ/viewform). W razie jakichkolwiek pytań nie bójcie się ich zadawać za pośrednictwem fanpage'u facebooku :)  
+W ramach rekrutacji stworzyliśmy cztery zadania z czterech różnych kategorii, żeby każdy znalazł coś dla siebie. Wybierz **jedno** zadanie, a [link do rozwiązania prześlij przez formularz zgłoszeniowy](https://docs.google.com/forms/d/e/1FAIpQLSdCl0sjuxdFbsFIp-jsfvIMJ2HUvD36R-D-jgogOl1ymq8HkQ/viewform). Rozwiązania zadań z kategorii **Mobile** i **Frontend** udostępnij w publicznym repozytorium kodu (np. Github). Zadania powinny być rozwiązywane indywidualnie.
+ W razie jakichkolwiek pytań nie bójcie się ich zadawać za pośrednictwem fanpage'u facebooku :)  
   
 **Niezależnie od decyzji przyjęcia, każdemu kandydatowi zostanie zwrócony feedback odnośnie jego rozwiązania zadania.**  
 
@@ -15,11 +14,9 @@ W ramach rekrutacji stworzyliśmy pięć zadań z pięciu różnych kategorii, �
 ## Kategorie:
 
   - [Frontend](#Frontend)
-  - [Design](#Design)
   - [Mobile](#Mobile)
-  - [Backend](#Backend)
-  - [Machine Learning](#ML)
-
+  - [Design](#Design)
+  - [Grafika](#Grafika)
 <a name="Frontend"></a>
 
 ## Frontend
@@ -31,32 +28,6 @@ Korzystając z frameworka `React.js`, `Vue.js` lub `Angular` napisz formularz um
 Formularz ma udostępniać opcję **wyboru godziny** (lista godzin zwracana jest przez API), **wyboru miejsca lub kilku miejsc na planie kina** (dostępność miejsc dostępna przez API) oraz **wyboru zniżki** (te można sobie wymyślić :wink:). Po wypełnieniu powyższych informacji wraz z **danymi kontaktowymi** (imię, nazwisko, email, numer telefonu), użytkownik przenoszony jest do **widoku podsumowania**, który pozwala przejrzeć i edytować wszystkie pola.
 
 Dozwolone jest użycie frameworków CSS jak i bibliotek dostępnych w repozytorium NPM. Ocenie podlega wygląd, jakość kodu (między innymi właściwe dla danego frameworka wykorzystanie formularzy) oraz ogólny feeling aplikacji (responsywność, walidacja pól).  
-
-<a name="Design"></a>
-
-## Design
-
-Zaprojektuj makietę aplikacji internetowej, pozwalającej na **zapisywanie się w pokojach na rajdy PWr**!
-
-Twoim zadaniem jest przygotowanie ekranu odpowiedzialnego za **przeglądanie listy dostępnych pokoi** i widoku **rezerwacji wybranego lokum**. Oba ekrany powinny być przedstawione w wersji zarówno **mobilnej, jak i na przeglądarki**.
-
-Zadbaj, aby makieta uwzględniała podane funkcjonalności:
-- Zapisany na rajd student ma możliwość rezerwacji tylko jednego miejsca w hotelu
-- Użytkownik ma prawo zmienić wybrane wcześniej lokum
-- Każdy pokój na liście posiada swój numer
-- Pokoje mieszczą różną liczbę osób
-- Wszystkie, bez względu na dostępność, wyświetlają się na liście
-- Aktualne zapełnienie jest publicznie dostępne
-
-Aplikacja powinna korzystać z [danego koloru wiodącego, wraz z jego odcieniami](./assets/palette.png).  
-Cała skala szarości jest również do Twojej dyspozycji.
-
-Przykładowe narzędzia:
-- aplikacje do tworzenia makiet (np. `Figma`, `AdobeXD`)
-- do grafiki wektorowej (np. `Inkscape`, `Adobe Illustrator`)
-- do grafiki rastrowej (np. `Gimp`, `Photoshop`)
-
-Oceniany będzie wygląd aplikacji i przyjazność interfejsu użytkownika.  
 
 <a name="Mobile"></a>
 
@@ -79,30 +50,52 @@ Jeśli wciąż Ci mało (a mamy taką nadzieję! :)) możesz rozbudować swoją 
 
 Dokumentacja API jest do Twojej dyspozycji, także **nie wahaj się eksperymentować z rozwiązaniami! :)**
 
-<a name="Backend"></a>
+<a name="Design"></a>
 
-## Backend
+## Design
 
-Wyobraź sobie, że piszesz backend do **aplikacji imitującej JakDojade**!
+Zaprojektuj makietę aplikacji internetowej lub mobilnej, pozwalającej na **zapisywanie się w pokojach na rajdy PWr**!
 
-W [pliku](./backend/solvro_city.json) JSON dostaniesz zapisaną mapę przystanków w Solvro City. Napisz część serwisu odpowiadającą za rejestrację i logowanie się użytkownika oraz za podawanie informacji o przystankach i najkrótszej trasy pomiędzy dwoma z nich. O sposobie podawania tych informacji powie Ci [specyfikacja](./backend/stops_api.yaml) (część z wyznaczaniem trasy wykonaj bez używania zewnętrznych bibliotek)
+Twoim zadaniem jest przygotowanie ekranu odpowiedzialnego za **przeglądanie listy dostępnych pokoi** i widoku **rezerwacji wybranego lokum**. Oba ekrany powinny być przedstawione w wersji zarówno **mobilnej, jak i na przeglądarki**.
 
-Do Twojej dyspozycji dajemy [skrypt](./backend/city_generator.py), który generuje mapę miasta i zapisuję ją do pliku. Możesz go użyć do testowania swojego API dla różnych map.
+Zadbaj, aby makieta uwzględniała podane funkcjonalności:
+- Zapisany na rajd student ma możliwość rezerwacji tylko jednego miejsca w hotelu
+- Użytkownik ma prawo zmienić wybrane wcześniej lokum
+- Każdy pokój na liście posiada swój numer
+- Pokoje mieszczą różną liczbę osób
+- Wszystkie, bez względu na dostępność, wyświetlają się na liście
+- Aktualne zapełnienie jest publicznie dostępne
 
-Na koniec zadbaj o **przejrzyste readme**.
+Aplikacja powinna korzystać z [danego koloru wiodącego, wraz z jego odcieniami](./assets/palette.png).  
+Cała skala szarości jest również do Twojej dyspozycji.
 
-Nice to have:
- - łatwość odpalania Twojego kodu niezależnie od środowiska (serdecznie polecamy Dockera)
- - swagger wygenerowany z kodu na wybranym porcie :-)
+Przykładowe narzędzia:
+- aplikacje do tworzenia makiet (np. `Figma`, `AdobeXD`)
+- do grafiki wektorowej (np. `Inkscape`, `Adobe Illustrator`)
+- do grafiki rastrowej (np. `Gimp`, `Photoshop`)
 
-Oceniana będzie jakość kodu, jego dokumentacja, rozwiązanie postawionego problemu, użycie odpowiednich technologii, odporność na podstawowe ataki oraz błędne dane (które nie są zawarte w specyfikacji) i praca z systemem kontroli wersji.  
-<a name="ML"></a>
+Oceniany będzie wygląd aplikacji i przyjazność interfejsu użytkownika.  
 
-## Machine Learning
+<a name="Grafika"></a>
 
-Wyobraź sobie, że tworzymy aplikację mającą na celu doklejanie zabawnych filtrów do twarzy. Zanim jednak przystąpimy do jej implementacji, potrzebujemy Twojej pomocy, aby **wykryć środek twarzy na zdjęciu**, bez tego cały plan na aplikację legnie w gruzach już na samym starcie! :(  
+## Grafika
+W ramach rekrutacji przygotowaliśmy zadanie składające się z **4 podpunktów**. Wykonaj każdy z nich i postaraj się, żeby wszystkie grafiki były ze sobą spójne.
 
-Używając odpowiednich narzędzi, skonstruuj **model do przewidywania współrzędnych (x,y) na zdjęciu, które oznaczą środek twarzy osoby na nim się znajdującej**! Twoim zadaniem na początek jest zebranie datasetu, następnie wytrenowanie modelu i ewaluacja tego, jak sobie radzi!Oceniane będzie dobranie odpowiednich narzędzi do zadania, wybranie odpowiedniego modelu do postawionego zadania (nie musisz zamykać się na Deep Learning, jeśli uważasz, że model typowo MLowy wystarczy droga wolna), a także graficzne przedstawienie całego procesu od pozyskania danych ich ewentualnej obróbki po ewaluację.  
+### Zadanie 1
+Solvro kończy już 3 lata! Z tej okazji opublikujemy jubileuszowy post, w którym podsumujemy 3 lata pracy i opowiemy o planach na przyszłość.
+**Zaprojektuj grafikę do wspomnianego posta na fanpage.**
 
-**UWAGA** to jak model sobie radzi nie będzie oceniane (tzn. nie ma różnicy, czy to będzie skuteczność na poziomie 90%, czy 95%, natomiast na pewno warto by była ona przyzwoita).  
+### Zadanie 2
+Solvro od pewnego czasu organizuje webinaria pod nazwą „Solvro Talks”.
+W planach jest poprowadzenie kolejnego - tym razem na temat wprowadzenia do sztucznej inteligencji.
+**Zaprojektuj grafikę promującą to wydarzenie na Facebooku.**
 
+### Zadanie 3
+Solvro znowu rekrutuje! Z tej okazji tworzymy specjalne wydarzenie dla studentów, podczas którego będą mogli z nami porozmawiać na Discordzie i zadać pytania dotyczące pracy w kole.
+**Zaprojektuj tło do wydarzenia na Facebooku naszego eventu.**
+
+### Zadanie 4
+Ambitni członkowie koła przygotowali ciekawostkę na Instagrama i potrzebują graficznej obróbki.
+**Pomóż ambitnym członkom koła!**
+
+Tekst ciekawostki - "Technologia Kotlin Multiplatform pozwala na pisanie wspólnego kodu dla Androida i iOS"
