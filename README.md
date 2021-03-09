@@ -1,10 +1,11 @@
+
 <div align="center">
 <img src="./assets/logo_solvro.png" height="200">
 </div>
 
 # Rekrutacja
 
-W ramach rekrutacji stworzyliśmy cztery zadania z czterech różnych kategorii, żeby każdy znalazł coś dla siebie. Wybierz **jedno** zadanie, a [link do rozwiązania prześlij przez formularz zgłoszeniowy](https://docs.google.com/forms/d/e/1FAIpQLSdCl0sjuxdFbsFIp-jsfvIMJ2HUvD36R-D-jgogOl1ymq8HkQ/viewform). Rozwiązania zadań z kategorii **Mobile** i **Frontend** udostępnij w publicznym repozytorium kodu (np. Github). Zadania powinny być rozwiązywane indywidualnie.
+W ramach rekrutacji stworzyliśmy cztery zadania z czterech różnych kategorii, żeby każdy znalazł coś dla siebie. Wybierz **jedno** zadanie, a [link do rozwiązania prześlij przez formularz zgłoszeniowy](https://docs.google.com/forms/d/e/1FAIpQLSdCl0sjuxdFbsFIp-jsfvIMJ2HUvD36R-D-jgogOl1ymq8HkQ/viewform). Rozwiązania zadań z kategorii **Mobile** i **Frontend** udostępnij w publicznym repozytorium kodu (np. Github). W przypadku rozwiązań z kategorii **Design** i **Grafika** pozostawiamy pełną dowolność - możesz umieścić je zarówno w chmurze, hostingu jak i w dowolnym serwisie na którym robisz projekt. Zadania powinny być rozwiązywane indywidualnie.
  W razie jakichkolwiek pytań nie bójcie się ich zadawać za pośrednictwem fanpage'a na facebooku :)  
   
 **Niezależnie od decyzji przyjęcia, każdemu kandydatowi zostanie zwrócony feedback odnośnie jego rozwiązania zadania.**  
