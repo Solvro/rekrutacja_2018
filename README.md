@@ -56,7 +56,7 @@ Dokumentacja API jest do Twojej dyspozycji, także **nie wahaj się eksperymento
 
 Zaprojektuj makietę aplikacji internetowej lub mobilnej, pozwalającej na **zapisywanie się w pokojach na rajdy PWr**!
 
-Twoim zadaniem jest przygotowanie ekranu odpowiedzialnego za **przeglądanie listy dostępnych pokoi** i widoku **rezerwacji wybranego lokum**. Oba ekrany powinny być przedstawione w wersji zarówno **mobilnej, jak i na przeglądarki**.
+Twoim zadaniem jest przygotowanie ekranu odpowiedzialnego za **przeglądanie listy dostępnych pokoi** i widoku **rezerwacji wybranego lokum**. W przypadku projektu aplikacji internetowej oba ekrany powinny być przedstawione w wersji zarówno **mobilnej, jak i na przeglądarki**.
 
 Zadbaj, aby makieta uwzględniała podane funkcjonalności:
 - Zapisany na rajd student ma możliwość rezerwacji tylko jednego miejsca w hotelu
